@@ -1,0 +1,9 @@
+data_root_path: /Users/argosaakyan/Downloads/ZVZ-real
+force_preprocess: False
+
+imgsz: 640
+batch_size: 16
+epochs: 2
+
+val_part: 0.1
+test_part: 0.1
