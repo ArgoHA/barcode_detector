@@ -18,4 +18,10 @@ python main.py
 ```
 
 ### Results:
-Baseline was trained for 30 epoches with test **mAP: 0.945**
+Baseline was trained for 50 epoches with **mAP: 0.84**
+
+[Google colab notebook](https://colab.research.google.com/drive/1Yi5qOqUP38-My3ONcEE_P-xNaMH0w8w9?usp=sharing) with training process
+
+![val_pred](/images/val_batch0_pred.jpg)
+![start_training](/images/start.png)
+![start_training](/images/end.png)
