@@ -59,7 +59,7 @@ def main():
     preprocess(data_root_path, val_split, test_split, force_preprocess=force_preprocess)
     model = YOLO("yolov8s.pt")
     model.train(
-        data=str(data_root_path / "dataset/dataset.yaml"),
+        data=str(data_root_path / "dataset" / "dataset.yaml"),
         epochs=epochs,
         imgsz=imgsz,
         batch=batch_size,
